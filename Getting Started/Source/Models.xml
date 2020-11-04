@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14061.00"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="33"/>
+    <LastIsnFolder val="0"/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="顧客コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="2" name="顧客名">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="3" name="国名">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="都市名">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="住所">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="ゴールド会員">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="入会日付">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="8" name="入会時刻">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_TIME" id="1"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="9" name="収入レベル">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="12.2C"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="12"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="10" name="与信限度額">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="12.2C"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="12"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="11" name="選択プログラムフォーム">
+        <PropertyList model="FORM_GUI0">
+          <Width id="23" val="248"/>
+          <Height id="24" val="216"/>
+          <Wallpaper id="42" val="%背景%"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <PersistentFormState id="493"/>
+        </PropertyList>
+      </Object>
+      <Object id="12" name="見出し文字">
+        <PropertyList model="CTRL_GUI0_STATIC">
+          <Font id="50" val="11"/>
+          <Color id="51" val="3"/>
+          <_VerticalScroll id="73"/>
+        </PropertyList>
+      </Object>
+      <Object id="13" name="文字入力項目">
+        <PropertyList model="CTRL_GUI0_EDIT">
+          <Font id="50" val="12"/>
+          <Color id="51" val="4"/>
+          <Style id="63" val="1"/>
+          <Border id="452"/>
+          <V11BorderStyle id="538" val="3"/>
+          <V11Style id="539" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="14" name="取引先コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="9"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="15" name="取引先名称">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="16" name="電話番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="#12"/>
+          <Size id="174" val="12"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="17" name="住所">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="18" name="取引累積年数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="19" name="ボーナス">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3.2"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="20" name="商品コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="5"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="5"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="21" name="商品名">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="60"/>
+          <Size id="174" val="60"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="22" name="商品説明">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="23" name="商品価格">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8C"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="24" name="在庫数量">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="6C"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="6"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="25" name="受注番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="6"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="6"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="26" name="受注日">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="27" name="金額">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="28" name="支払方法">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <GuiDisplay id="158">
+            <PropertyList model="CTRL_GUI0_COMBOBOX">
+              <ItemsList id="45" valUnicode="現金,小切手,クレジットカード,クーポン"/>
+              <DisplayList id="303" valUnicode="現金払い,小切手払い,クレジットカード払い,クーポン券で払う"/>
+            </PropertyList>
+          </GuiDisplay>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="29" name="明細行番号">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="30" name="受注個数">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="31" name="国名コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="6"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="6"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="32" name="都市名コード">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="6"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="6"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="33" name="消費税">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>
