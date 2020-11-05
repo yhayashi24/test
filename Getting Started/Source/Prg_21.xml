@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="印刷：仕入先別製品一覧" ISN_2="1" LastIsn="1" id="21">
+        <Header Description="印刷：仕入先別製品一覧1" ISN_2="1" LastIsn="1" id="21">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -26,7 +26,7 @@
           <External val="N"/>
           <Offline val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737733" _time="34689" date="04/11/2020" time="09:38:09"/>
+          <LastModified _date="737734" _time="48907" date="05/11/2020" time="13:35:07"/>
         </Header>
         <ItemIsn val="8"/>
         <Resource>
@@ -386,7 +386,7 @@
           <FormEntry id="2">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="印刷：仕入先別製品一覧"/>
+              <FormName id="311" valUnicode="印刷：仕入先別製品一覧1"/>
               <PersistentFormState id="493"/>
             </PropertyList>
           </FormEntry>
