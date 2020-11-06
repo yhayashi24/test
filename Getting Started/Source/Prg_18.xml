@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14061.00"/>
+    <Version val="14070.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -26,7 +26,7 @@
           <External val="N"/>
           <Offline val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737733" _time="34689" date="2020/11/04" time="09:38:09"/>
+          <LastModified _date="737735" _time="56307" date="06/11/2020" time="15:38:27"/>
         </Header>
         <ItemIsn val="6"/>
         <Resource>
@@ -64,9 +64,9 @@
             <Column id="1" name="製品数合計">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="6C"/>
+                <Picture id="157" valUnicode="8C"/>
                 <_Dec id="181"/>
-                <_Whole id="182" val="6"/>
+                <_Whole id="182" val="8"/>
                 <_Negative id="192"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
@@ -496,7 +496,7 @@
             <TaskType val="B"/>
             <External val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="735918" _time="60106" date="2015/11/16" time="16:41:46"/>
+            <LastModified _date="735918" _time="60106" date="16/11/2015" time="16:41:46"/>
           </Header>
           <ItemIsn val="6"/>
           <Resource>
