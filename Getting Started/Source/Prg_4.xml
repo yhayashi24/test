@@ -24,9 +24,9 @@
           <External val="N"/>
           <Offline val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737735" _time="50758" date="2020/11/06" time="14:05:58"/>
+          <LastModified _date="737735" _time="55893" date="2020/11/06" time="15:31:33"/>
         </Header>
-        <ItemIsn val="11"/>
+        <ItemIsn val="12"/>
         <Resource>
           <DB id="1">
             <DataObject comp="-1" obj="1"/>
@@ -306,6 +306,31 @@
                   <Modifier val="S"/>
                   <Direction val="C"/>
                 </CallTask>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="100663300" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+            <Level val="T"/>
+            <Type val="S"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Update FlowIsn="100663311">
+                  <FieldID val="2"/>
+                  <WithValue val="100663297"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -600,6 +625,12 @@
             </Control>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="100663297">
+            <ExpSyntax val="''"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
       </Task>
     </Programs>
   </ProgramsRepository>
