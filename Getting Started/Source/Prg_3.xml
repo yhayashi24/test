@@ -26,9 +26,9 @@
           <External val="N"/>
           <Offline val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737734" _time="49366" date="05/11/2020" time="13:42:46"/>
+          <LastModified _date="737735" _time="39333" date="06/11/2020" time="10:55:33"/>
         </Header>
-        <ItemIsn val="10"/>
+        <ItemIsn val="13"/>
         <Resource>
           <DB id="1">
             <DataObject comp="-1" obj="1"/>
@@ -176,6 +176,42 @@
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
                   <_DitIndexForToolkit val="10"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="67108875" FlowIsn="67108872" id="67108875">
+                  <Column val="6"/>
+                  <Type val="R"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="67108876" FlowIsn="67108873" id="67108876">
+                  <Column val="7"/>
+                  <Type val="R"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="67108877" FlowIsn="67108874" id="67108877">
+                  <Column val="8"/>
+                  <Type val="R"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -348,19 +384,6 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control PDOD="128" _test_id="6" id="12">
-              <PropertyList model="CTRL_GUI0_EDIT">
-                <Model id="1"/>
-                <X id="21" val="60"/>
-                <Y id="22" val="103"/>
-                <Width id="23" val="23"/>
-                <Height id="24" val="11"/>
-                <Data id="43"/>
-                <ControlName id="46" val="ゴールド会員"/>
-                <_Orientation id="143"/>
-                <TabOrder id="314" val="6"/>
-              </PropertyList>
-            </Control>
             <Control _test_id="17" id="13">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="入会日日付:"/>
@@ -372,19 +395,6 @@
                 <Style id="63" val="7"/>
                 <_VerticalScroll id="73"/>
                 <_Orientation id="143"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="128" _test_id="7" id="14">
-              <PropertyList model="CTRL_GUI0_EDIT">
-                <Model id="1"/>
-                <X id="21" val="60"/>
-                <Y id="22" val="122"/>
-                <Width id="23" val="43"/>
-                <Height id="24" val="11"/>
-                <Data id="43"/>
-                <ControlName id="46" val="入会日日付"/>
-                <_Orientation id="143"/>
-                <TabOrder id="314" val="7"/>
               </PropertyList>
             </Control>
             <Control _test_id="18" id="15">
@@ -400,19 +410,6 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control PDOD="128" _test_id="8" id="16">
-              <PropertyList model="CTRL_GUI0_EDIT">
-                <Model id="1"/>
-                <X id="21" val="60"/>
-                <Y id="22" val="141"/>
-                <Width id="23" val="35"/>
-                <Height id="24" val="11"/>
-                <Data id="43"/>
-                <ControlName id="46" val="入会日時刻"/>
-                <_Orientation id="143"/>
-                <TabOrder id="314" val="8"/>
-              </PropertyList>
-            </Control>
             <Control _test_id="19" id="17">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="収入レベル:"/>
@@ -426,19 +423,6 @@
                 <_Orientation id="143"/>
               </PropertyList>
             </Control>
-            <Control PDOD="128" _test_id="9" id="18">
-              <PropertyList model="CTRL_GUI0_EDIT">
-                <Model id="1"/>
-                <X id="21" val="60"/>
-                <Y id="22" val="160"/>
-                <Width id="23" val="75"/>
-                <Height id="24" val="11"/>
-                <Data id="43"/>
-                <ControlName id="46" val="収入レベル"/>
-                <_Orientation id="143"/>
-                <TabOrder id="314" val="9"/>
-              </PropertyList>
-            </Control>
             <Control _test_id="20" id="19">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="与信限度額:"/>
@@ -450,19 +434,6 @@
                 <Style id="63" val="7"/>
                 <_VerticalScroll id="73"/>
                 <_Orientation id="143"/>
-              </PropertyList>
-            </Control>
-            <Control PDOD="128" _test_id="10" id="20">
-              <PropertyList model="CTRL_GUI0_EDIT">
-                <Model id="1"/>
-                <X id="21" val="60"/>
-                <Y id="22" val="179"/>
-                <Width id="23" val="75"/>
-                <Height id="24" val="11"/>
-                <Data id="43"/>
-                <ControlName id="46" val="与信限度額"/>
-                <_Orientation id="143"/>
-                <TabOrder id="314" val="10"/>
               </PropertyList>
             </Control>
           </FormEntry>
