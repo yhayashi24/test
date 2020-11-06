@@ -26,7 +26,7 @@
           <External val="N"/>
           <Offline val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737735" _time="50446" date="06/11/2020" time="14:00:46"/>
+          <LastModified _date="737735" _time="54292" date="06/11/2020" time="15:04:52"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
@@ -284,6 +284,36 @@
                     <EventType val="N"/>
                   </Event>
                   <TaskID comp="-1" obj="7"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="67108869" propagate="78">
+            <Level val="T"/>
+            <Type val="S"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="67108879">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="8"/>
                   <Lock val="N"/>
                   <Wait val="Y"/>
                   <SyncData val="N"/>
