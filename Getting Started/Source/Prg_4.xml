@@ -24,9 +24,9 @@
           <External val="N"/>
           <Offline val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737735" _time="55893" date="2020/11/06" time="15:31:33"/>
+          <LastModified _date="737735" _time="55932" date="2020/11/06" time="15:32:12"/>
         </Header>
-        <ItemIsn val="12"/>
+        <ItemIsn val="13"/>
         <Resource>
           <DB id="1">
             <DataObject comp="-1" obj="1"/>
@@ -309,7 +309,7 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="100663300" propagate="78" CreatedBy="MergeTool" FullCopy="1">
+          <LogicUnit id="67108869" propagate="78" CreatedBy="MergeTool">
             <Level val="T"/>
             <Type val="S"/>
             <Scope val="S"/>
@@ -331,6 +331,22 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </Update>
+              </LogicLine>
+              <LogicLine>
+                <CallTask FlowIsn="67108879">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="8"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </CallTask>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
